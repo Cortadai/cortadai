@@ -1,6 +1,6 @@
 # 👋 David Cortaberría Fernández
 
-**Arquitecto de Software | Especialista en Microservicios | Spring Boot & Kubernetes Expert**
+**Arquitecto de Software | Especialista en Microservicios | Spring Boot & Kubernetes**
 
 ---
 
@@ -30,10 +30,11 @@ Actualmente enfocado en construir **sistemas de microservicios de grado de produ
 - Patrones reales para transacciones distribuidas
 
 #### **[spring-security-poc](https://github.com/Cortadai/spring-security-poc)** ⭐⭐⭐
-**Aplicación Bancaria: Implementación de Seguridad de Grado de Producción**
-- Spring Boot 3.4.5, SPA Angular, Redis
-- Implementa: JWT + Refresh Tokens, Protección CSRF, Autenticación Stateless
-- Patrones de seguridad full-stack para SPAs modernas
+**Sistema de Autenticación Empresarial Bancario con Integración SSO**
+- 3 implementaciones arquitectónicas: Básica (main), Basada en Cookies (option1), Híbrida (option2)
+- Arquitectura completa de 4 capas: Fake SSO → Middleware de Seguridad → API Backend → Angular SPA
+- Implementa 7 endpoints de seguridad con JWT RS256, encriptación AES, certificados X.509
+- Patrones de producción: Protección CSRF, renovación automática de tokens, sesiones distribuidas
 
 #### **[poc-hexagon-lite](https://github.com/Cortadai/poc-hexagon-lite)** ⭐⭐
 **Arquitectura Hexagonal (Puertos & Adaptadores) con Java 17**
