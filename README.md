@@ -9,10 +9,10 @@
 Con **más de 10 años de experiencia** diseñando e implementando sistemas distribuidos a escala empresarial, me especializo en:
 
 - **Arquitectura de Microservicios** - Spring Cloud, Kubernetes, Docker
-- **Sistemas Orientados a Eventos** - Apache Kafka, RabbitMQ, AMQP
-- **Modernización Empresarial** - Migración de sistemas legacy (VB6 a Spring Boot & Angular)
+- **Sistemas Orientados a Eventos** - Apache Kafka, RabbitMQ
+- **Modernización Empresarial** - Migración de sistemas legacy a Spring Boot & Angular
 - **Domain-Driven Design** - Patrones SAGA, Arquitectura Hexagonal, Clean Code
-- **Infraestructura Cloud** - Kubernetes on-premise, Docker Compose, DevOps
+- **Infraestructura Cloud** - Kubernetes on-premise, DevOps
 
 Actualmente enfocado en construir **sistemas de microservicios de grado de producción** y ayudar a equipos en la transición desde arquitecturas monolíticas hacia soluciones distribuidas y escalables.
 
@@ -52,7 +52,7 @@ Actualmente enfocado en construir **sistemas de microservicios de grado de produ
 
 ## 📚 Colecciones de Aprendizaje
 
-He organizado mis proyectos en hubs de aprendizaje curados con documentación comprehensiva:
+### Tier-2: He organizado mis proyectos en hubs de aprendizaje curados con documentación comprehensiva
 
 ### 🏗️ [Arquitectura de Microservicios](https://github.com/Cortadai/microservices-architecture)
 Ecosistema completo de microservicios con Eureka, Config Server, API Gateway y patrones de resiliencia.
@@ -94,7 +94,7 @@ Generación automática de código desde esquemas y contratos.
 
 **Mensajería & Eventos**
 - Apache Kafka
-- RabbitMQ (AMQP)
+- RabbitMQ
 - Event Sourcing, CQRS
 
 **Bases de Datos**
@@ -129,7 +129,7 @@ Generación automática de código desde esquemas y contratos.
 - **6 hubs de aprendizaje curados** con documentación comprehensiva
 - **4 proyectos de portfolio de grado de producción**
 - **10+ años** de experiencia en arquitectura empresarial
-- **Especialista en:** Microservicios, Ecosistema Spring, Arquitectura Orientada a Eventos
+- **Especialista en:** Microservicios y Ecosistema Spring
 
 ---
 
@@ -137,11 +137,10 @@ Generación automática de código desde esquemas y contratos.
 
 Creo en el **aprendizaje práctico y hands-on**. Cada hub incluye:
 
-✅ Dificultad progresiva (Principiante → Avanzado)
-✅ Casos de uso y patrones reales
-✅ Ejemplos de trabajo completo
-✅ Código de grado de producción
-✅ Documentación comprehensiva
+- ✅ Dificultad progresiva (Principiante → Avanzado)
+- ✅ Casos de uso y patrones reales
+- ✅ Ejemplos de trabajo completo
+- ✅ Documentación comprehensiva
 
 ---
 
@@ -167,12 +166,11 @@ Creo en el **aprendizaje práctico y hands-on**. Cada hub incluye:
 
 > *"La arquitectura no se trata de ser inteligente. Se trata de resolver problemas reales con soluciones simples y mantenibles."*
 
-Me apasiona:
+Me interesa:
 - ✅ Código limpio y mantenible
 - ✅ Sistemas distribuidos escalables
-- ✅ Experiencia del desarrollador y productividad del equipo
 - ✅ Aprendizaje continuo y mejora
-- ✅ Compartir conocimiento y mentoría
+- ✅ Compartir conocimiento
 
 ---
 
