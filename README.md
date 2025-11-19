@@ -6,7 +6,7 @@
 
 ## 👤 Sobre Mí
 
-Arquitecto de Softwarecon **más de 10 años en desarrollo empresarial**, evolucionando desde desarrollador Spring Boot hasta arquitecto de soluciones cloud-native.
+Arquitecto de Software con **más de 10 años en desarrollo empresarial**, evolucionando desde desarrollador Spring Boot hasta arquitecto de soluciones cloud-native.
 
 **Experiencia en Producción:**
 - Arquitecto en modernización de sistemas Legacy (10+ años) → Spring Boot + Angular
