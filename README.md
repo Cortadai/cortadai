@@ -37,32 +37,39 @@ evolucionando desde desarrollador Spring Boot hasta arquitecto de soluciones clo
 - Distributed Tracing completo con Zipkin para trazabilidad end-to-end de peticiones
 - Arquitectura dual ejecutable: Modo desarrollo local (sin K8s) + Deployment completo en Minikube/K8s
 - Gestión de configuración externa mediante ConfigMaps, Secrets y SealedSecrets
+- Stack: Spring Boot 3.x, Spring Cloud Kubernetes, OpenFeign, Resilience4j, Zipkin, Micrometer, Kubernetes, Minikube/K3s, Maven
 
 ### **[🎯 Clean Architecture & DDD](https://github.com/Cortadai/food-ordering-system)** ⭐⭐⭐
-**Microservicios con DDD, SAGA, Kafka & Arquitectura Orientada a Eventos**
-- Spring Boot 17, Apache Kafka, PostgreSQL.
-- Implementa: Arquitectura Hexagonal, patrón SAGA, patrón Outbox, Event Sourcing.
-- 4 microservicios: Órdenes, Cliente, Pagos, Restaurante.
-- Patrones reales para transacciones distribuidas.
+**Sistema de Pedidos con Arquitectura Orientada a Eventos**
+- 4 microservicios orquestados: Order, Customer, Payment, Restaurant con flujo transaccional completo
+- Arquitectura Hexagonal (Puertos & Adaptadores) con separación estricta de capas Domain/Application/Infrastructure
+- Patrón SAGA Orchestration para transacciones distribuidas con compensación automática
+- Outbox Pattern garantizando consistencia eventual entre base de datos y Kafka
+- Event Sourcing & CQRS para auditoría completa del ciclo de vida de pedidos
+- Stack: Spring Boot 2.x, Apache Kafka, PostgreSQL, Docker Compose
+- Incluye scripts de testing con curl, monitorización con kafkacat y visualización de dependencias con Graphviz
 
-### **[🛡️ Security Architecture](https://github.com/Cortadai/spring-security-poc)** ⭐⭐⭐
+### **[🔐 Enterprise Security Architecture](https://github.com/Cortadai/spring-security-poc)** ⭐⭐⭐
 **Sistema de Autenticación Empresarial con Integración SSO**
-- 3 implementaciones arquitectónicas: Básica (main), Basada en Cookies (option1), Híbrida (option2)
-- Arquitectura completa de 4 capas: Fake SSO → Middleware de Seguridad → API Backend → Angular SPA
-- Implementa 7 endpoints de seguridad con JWT RS256, encriptación AES, certificados X.509
-- Patrones de producción: Protección CSRF, renovación automática de tokens, sesiones distribuidas
+- 3 implementaciones arquitectónicas completas en ramas separadas: Básica (main), Basada en Cookies (option1), Híbrida (option2)
+- Arquitectura de 4 capas: Fake SSO (legacy) → Middleware de Seguridad → API Backend → Angular SPA
+- 7 endpoints de seguridad empresarial: /loginBegin, /loginEnd, /refresco, /logoff, /obtenerclaims, /estadosession
+- Patrones de seguridad bancaria: JWT RS256, encriptación AES (CBC/PKCS5Padding), validación certificados X.509
+- Protección multicapa: CSRF (SameSite cookies + double-submit pattern), XSS prevention, session hijacking mitigation
+- Gestión avanzada de tokens: Access/Refresh pattern, renovación automática, sesiones distribuidas con fingerprinting
+- Stack: Spring Boot 3.x, Spring Security 6.x, Angular 17, Redis, Docker
+- Documentación exhaustiva: Flujos de autenticación completos, checklist de cumplimiento, comparativa de implementaciones
 
-### **[⬡ Hexagonal Architecture Lite](https://github.com/Cortadai/poc-hexagon-lite)** ⭐⭐
-**Arquitectura Hexagonal (Puertos & Adaptadores) con Java 17**
-- 5 módulos Maven con separación estricta de responsabilidades
-- Demostración de Arquitectura Limpia
-- Patrones de Domain-Driven Design
-
-### **[🗄️ jOOQ Type-Safe SQL](https://github.com/Cortadai/poc-01-jooq)** ⭐⭐
-**SQL Type-Safe con JOOQ**
-- Comparación JOOQ vs JPA
-- Integración con SQL Server & PostgreSQL
-- Arquitectura hexagonal con migraciones Flyway
+### **[⚡ jOOQ Type-Safe SQL](https://github.com/Cortadai/poc-01-jooq)** ⭐⭐
+**SQL Type-Safe con jOOQ - Comparativa Multi-Database**
+- 2 implementaciones completas en ramas: SQL Server (básica) + PostgreSQL (enterprise con 60+ endpoints)
+- 3 formas de usar jOOQ: Stored Procedures (BD-centric), Native Queries (flexible), DSL Builder (type-safe)
+- Sistema de gestión de contratos con 27 Native Queries: CTEs, Window Functions, análisis de cartera, reporting
+- 3 Stored Procedures empresariales: actualización automática de estados, generación de reportes, creación de partes
+- Arquitectura limpia en capas: Controller → Service → Repository con DTOs, Mappers y exception handling centralizado
+- Documentación técnica exhaustiva: 4 archivos HELP, índice maestro, arquitectura, queries, procedures
+- Stack: Spring Boot 3.x, jOOQ 3.19, PostgreSQL 16/SQL Server, Flyway, Swagger/OpenAPI 3.0, Docker Compose
+- Testing completo con ejemplos curl para cada endpoint, troubleshooting y errores comunes
 
 ---
 
