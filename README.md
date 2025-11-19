@@ -38,27 +38,27 @@ evolucionando desde desarrollador Spring Boot hasta arquitecto de soluciones clo
 - Arquitectura dual ejecutable: Modo desarrollo local (sin K8s) + Deployment completo en Minikube/K8s
 - Gestión de configuración externa mediante ConfigMaps, Secrets y SealedSecrets
 
-#### **[🎯 Clean Architecture & DDD](https://github.com/Cortadai/food-ordering-system)** ⭐⭐⭐
+### **[🎯 Clean Architecture & DDD](https://github.com/Cortadai/food-ordering-system)** ⭐⭐⭐
 **Microservicios con DDD, SAGA, Kafka & Arquitectura Orientada a Eventos**
 - Spring Boot 17, Apache Kafka, PostgreSQL.
 - Implementa: Arquitectura Hexagonal, patrón SAGA, patrón Outbox, Event Sourcing.
 - 4 microservicios: Órdenes, Cliente, Pagos, Restaurante.
 - Patrones reales para transacciones distribuidas.
 
-#### **[🛡️ Security Architecture](https://github.com/Cortadai/spring-security-poc)** ⭐⭐⭐
+### **[🛡️ Security Architecture](https://github.com/Cortadai/spring-security-poc)** ⭐⭐⭐
 **Sistema de Autenticación Empresarial con Integración SSO**
 - 3 implementaciones arquitectónicas: Básica (main), Basada en Cookies (option1), Híbrida (option2)
 - Arquitectura completa de 4 capas: Fake SSO → Middleware de Seguridad → API Backend → Angular SPA
 - Implementa 7 endpoints de seguridad con JWT RS256, encriptación AES, certificados X.509
 - Patrones de producción: Protección CSRF, renovación automática de tokens, sesiones distribuidas
 
-#### **[⬡ Hexagonal Architecture Lite](https://github.com/Cortadai/poc-hexagon-lite)** ⭐⭐
+### **[⬡ Hexagonal Architecture Lite](https://github.com/Cortadai/poc-hexagon-lite)** ⭐⭐
 **Arquitectura Hexagonal (Puertos & Adaptadores) con Java 17**
 - 5 módulos Maven con separación estricta de responsabilidades
 - Demostración de Arquitectura Limpia
 - Patrones de Domain-Driven Design
 
-#### **[🗄️ jOOQ Type-Safe SQL](https://github.com/Cortadai/poc-01-jooq)** ⭐⭐
+### **[🗄️ jOOQ Type-Safe SQL](https://github.com/Cortadai/poc-01-jooq)** ⭐⭐
 **SQL Type-Safe con JOOQ**
 - Comparación JOOQ vs JPA
 - Integración con SQL Server & PostgreSQL
