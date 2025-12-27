@@ -12,12 +12,12 @@ Arquitecto de Software con **más de 10 años en desarrollo empresarial**, evolu
 - Arquitecto en modernización de sistemas Legacy (10+ años) → Spring Boot + Angular
 - Evolución desde monolitos en capas (Controller-Service-Repository) hasta microservicios distribuidos
 - Microservicios Spring Cloud Netflix en producción (Eureka, Config Server, Hystrix, Feign)
-- Soluciones Spring Boot para clientes enterprise (Vaillant, sector público)
+- Soluciones Spring Boot para clientes enterprise
 
 **R&D & Arquitectura de Referencia:**
 - Spring Cloud Kubernetes - POC enterprise con 5 microservicios, service discovery, circuit breakers
 - Event-Driven Architecture - Implementación SAGA, Outbox, Event Sourcing con Kafka
-- Security Stack - OAuth2/OIDC, JWT, Keycloak, Spring Security, Defense in Depth
+- Security Stack - 9 implementaciones OAuth2/OIDC, patrones BFF, PKCE, SAML2 Federation, Defense in Depth
 - Messaging Patterns - RabbitMQ DLQ, Retry patterns, escalado horizontal con consumers
 - Clean Architecture - DDD, Hexagonal Architecture, patrones empresariales
 
@@ -77,6 +77,14 @@ Arquitecto de Software con **más de 10 años en desarrollo empresarial**, evolu
 
 ### Tier-2: He organizado mis proyectos en hubs de aprendizaje curados con documentación comprehensiva
 
+### 🔐 [Keycloak & OAuth2 Security](https://github.com/Cortadai/keycloak-security-hub) 🆕
+**Hub comprehensivo de autenticación y autorización con 9 implementaciones progresivas.**
+- **3 Proyectos, 9 Implementaciones** | Todos los flujos OAuth2/OIDC cubiertos
+- Patrones BFF: Cookies HttpOnly, Headers+Redis, Token Binding ("Llave Partida")
+- SPA + PKCE, Microservicios Defense in Depth, Custom Protocol Mappers
+- Federación SAML2 (IdP + SP) con roles desde base de datos externa
+- Stack: Spring Boot 3.x, Spring Security 6.x, Keycloak 23.x, Angular 21, Redis
+
 ### 🏗️ [Arquitectura de Microservicios](https://github.com/Cortadai/microservices-architecture)
 Ecosistema completo de microservicios con Eureka, Config Server, API Gateway y patrones de resiliencia.
 - **4 Proyectos** | Spring Cloud, patrones Netflix, Sistemas Distribuidos
@@ -89,7 +97,7 @@ Desde tutoriales de Kafka/RabbitMQ hasta pipelines de streaming y microservicios
 Conceptos fundamentales para APIs REST y microservicios.
 - **5 Proyectos** | CRUD, JPA, Transacciones, APIs de búsqueda
 
-### 🔐 [Seguridad & Autenticación](https://github.com/Cortadai/spring-security-course)
+### 🎓 [Seguridad & Autenticación](https://github.com/Cortadai/spring-security-course)
 19 proyectos comprehensivos cubriendo Spring Security desde lo básico hasta OAuth2.
 - JWT, OAuth2, OpenID Connect, integración con Keycloak
 
@@ -117,12 +125,12 @@ Generación automática de código desde esquemas y contratos.
 - Arquitectura Hexagonal, DDD, patrones SAGA
 
 **Seguridad & Autenticación**
-- Spring Security
+- Spring Security 6.x
 - JWT (RS256/RS512)
-- Keycloak (OAuth2/OIDC)
+- **Keycloak (OAuth2/OIDC, SAML2, Custom SPIs)**
+- **Patrones BFF (Cookies, Headers, Token Binding)**
 - Defense in Depth (validación multicapa)
-- X.509 Certificates
-- AES Encryption
+- X.509 Certificates, AES Encryption
 
 **Mensajería & Eventos**
 - Apache Kafka
@@ -135,6 +143,7 @@ Generación automática de código desde esquemas y contratos.
 - MySQL
 - SQL Server
 - MongoDB
+- Redis
 
 **DevOps & Infraestructura**
 - Docker & Docker Compose
@@ -167,11 +176,12 @@ Generación automática de código desde esquemas y contratos.
 
 ## 📊 Por Los Números
 
-- **55+ repositorios** organizados por ruta de aprendizaje
-- **6 hubs de aprendizaje curados** con documentación comprehensiva
+- **60+ repositorios** organizados por ruta de aprendizaje
+- **8 hubs de aprendizaje curados** con documentación comprehensiva
 - **4 proyectos de portfolio de grado de producción**
+- **9 implementaciones de seguridad OAuth2/OIDC** con patrones enterprise
 - **10+ años** de experiencia en arquitectura empresarial
-- **Especialista en:** Microservicios y Ecosistema Spring
+- **Especialista en:** Microservicios, Seguridad y Ecosistema Spring
 
 ---
 
@@ -198,7 +208,7 @@ Creo en el **aprendizaje práctico y hands-on**. Cada hub incluye:
 
 **Roadmap de Aprendizaje**
 - ✅ **Spring Cloud Kubernetes** - POC completado con 5 microservicios enterprise-grade
-- ✅ **Keycloak** - SSO, OAuth2/OIDC, JWT validation Defense in Depth, preparado para BFF
+- ✅ **Keycloak Mastery** - 9 implementaciones: OAuth2 flows, BFF patterns, PKCE, SAML2 Federation, Custom SPIs
 - ✅ **RabbitMQ Avanzado** - DLQ, Retry patterns, microservicios event-driven con escalado
 - 🔄 **ELK Stack** - Próximo: Observabilidad centralizada (Elasticsearch, Logstash, Kibana)
 - 📋 **Redis** - Futuro: Caché distribuida, sesiones, pub/sub y estructuras de datos en memoria
@@ -224,7 +234,6 @@ Me interesa:
 Actualmente preparando:
 - 📚 Patrones avanzados de Kubernetes
 - 🔍 Guías de troubleshooting en microservicios
-- 💼 Sitio web de portfolio con Hugo
 - 📝 Artículos técnicos sobre patrones de arquitectura
 
 ---
