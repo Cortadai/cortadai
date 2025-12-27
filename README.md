@@ -17,7 +17,8 @@ Arquitecto de Software con **más de 10 años en desarrollo empresarial**, evolu
 **R&D & Arquitectura de Referencia:**
 - Spring Cloud Kubernetes - POC enterprise con 5 microservicios, service discovery, circuit breakers
 - Event-Driven Architecture - Implementación SAGA, Outbox, Event Sourcing con Kafka
-- Security Stack - OAuth2/OIDC, JWT, Cookies, Spring Security, en progreso con Keycloak
+- Security Stack - OAuth2/OIDC, JWT, Keycloak, Spring Security, Defense in Depth
+- Messaging Patterns - RabbitMQ DLQ, Retry patterns, escalado horizontal con consumers
 - Clean Architecture - DDD, Hexagonal Architecture, patrones empresariales
 
 **Objetivo:** Liderar proyectos de **microservicios de grado de producción** y guiar equipos en la transición desde arquitecturas monolíticas/legacy hacia soluciones distribuidas cloud-native.
@@ -81,8 +82,8 @@ Ecosistema completo de microservicios con Eureka, Config Server, API Gateway y p
 - **4 Proyectos** | Spring Cloud, patrones Netflix, Sistemas Distribuidos
 
 ### 🚀 [Event-Driven & Messaging](https://github.com/Cortadai/event-driven-messaging-architecture)
-Desde tutoriales de Kafka hasta pipelines de streaming en tiempo real.
-- **6 Proyectos** | Kafka, RabbitMQ, patrones Producer-Consumer, Streaming en tiempo real
+Desde tutoriales de Kafka/RabbitMQ hasta pipelines de streaming y microservicios event-driven.
+- **8 Proyectos** | Kafka, RabbitMQ, DLQ, Retry patterns, Escalado horizontal, Streaming en tiempo real
 
 ### ⚡ [Fundamentos Spring Boot](https://github.com/Cortadai/spring-boot-basics)
 Conceptos fundamentales para APIs REST y microservicios.
@@ -118,14 +119,16 @@ Generación automática de código desde esquemas y contratos.
 **Seguridad & Autenticación**
 - Spring Security
 - JWT (RS256/RS512)
-- Keycloak (en progreso)
+- Keycloak (OAuth2/OIDC)
+- Defense in Depth (validación multicapa)
 - X.509 Certificates
 - AES Encryption
 
 **Mensajería & Eventos**
 - Apache Kafka
-- RabbitMQ
+- RabbitMQ (Exchanges, DLQ, Retry)
 - Event Sourcing, CQRS
+- Escalado horizontal con consumers
 
 **Bases de Datos**
 - PostgreSQL
@@ -195,9 +198,12 @@ Creo en el **aprendizaje práctico y hands-on**. Cada hub incluye:
 
 **Roadmap de Aprendizaje**
 - ✅ **Spring Cloud Kubernetes** - POC completado con 5 microservicios enterprise-grade
-- 🔄 **Keycloak** - Implementando SSO, OAuth2/OIDC y gestión centralizada de identidades
-- 📋 **Apache Camel** - Próximo: Integración empresarial y patrones EIP (Enterprise Integration Patterns)
-- 🎯 Objetivo: Stack completo de integración y seguridad enterprise grade
+- ✅ **Keycloak** - SSO, OAuth2/OIDC, JWT validation Defense in Depth, preparado para BFF
+- ✅ **RabbitMQ Avanzado** - DLQ, Retry patterns, microservicios event-driven con escalado
+- 🔄 **ELK Stack** - Próximo: Observabilidad centralizada (Elasticsearch, Logstash, Kibana)
+- 📋 **Redis** - Futuro: Caché distribuida, sesiones, pub/sub y estructuras de datos en memoria
+- 📋 **Apache Camel** - Futuro: Integración empresarial y patrones EIP (Enterprise Integration Patterns)
+- 🎯 Objetivo: Stack completo de integración, observabilidad y seguridad enterprise grade
 
 ---
 
@@ -225,4 +231,4 @@ Actualmente preparando:
 
 **Siempre aprendiendo. Siempre construyendo. Siempre mejorando.** 🚀
 
-*Última actualización: Noviembre 2025*
+*Última actualización: Diciembre 2025*
